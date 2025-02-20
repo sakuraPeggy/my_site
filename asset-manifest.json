@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/my_site/static/js/main.1c516dbf.js",
+    "main.js": "/my_site/static/js/main.54063bd2.js",
     "static/media/yellobg.png": "/my_site/static/media/yellobg.104360662a01f8b7eeeb.png",
     "static/media/pic.png": "/my_site/static/media/pic.3684d839c62ac0a51d31.png",
     "index.html": "/my_site/index.html",
-    "main.1c516dbf.js.map": "/my_site/static/js/main.1c516dbf.js.map"
+    "main.54063bd2.js.map": "/my_site/static/js/main.54063bd2.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c516dbf.js"
+    "static/js/main.54063bd2.js"
   ]
 }
