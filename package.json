@@ -2,6 +2,8 @@
   "name": "my-website",
   "version": "0.1.0",
   "homepage": "https://sakuraPeggy.github.io/my_site", 
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
