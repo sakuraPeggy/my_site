@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <Container
     sx={{
-      positions:"absolute",
+      position:"absolute",
       display: "flex",
     }}
     
@@ -42,7 +42,7 @@ const Home = () => {
         alignItems="center" 
         sx={{ maxWidth: "1000px", width: "100%", }}
       >
-        {/* Profile Section */}
+
         <Grid item  md={5} sx={{ display: "flex", justifyContent: "center" }}>
           <Paper
             sx={{
@@ -51,7 +51,7 @@ const Home = () => {
               borderRadius: "10px",
               textAlign: "center",
               width: "100%", 
-              maxWidth: "400px", // Prevents it from being too wide on larger screens
+              maxWidth: "400px", 
             }}
           >
             <Avatar
@@ -75,7 +75,7 @@ const Home = () => {
           </Paper>
         </Grid>
 
-        {/* About Me Section */}
+       
         <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
           <Typography 
             variant="h6" 
@@ -93,7 +93,7 @@ const Home = () => {
             high-performance websites.
           </Typography>
 
-          {/* Buttons */}
+      
           <Box mt={4} display="flex" justifyContent="center" gap={2} flexWrap="wrap">
             <Button 
               variant="contained" 
