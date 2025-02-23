@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "@mui/material";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
@@ -15,13 +15,13 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} /> {/* ✅ Add this line */}
+          <Route path="/home" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<h2>Page Not Found</h2>} />
-          </Routes>
+        </Routes>
       </Container>
     </Router>
   );
