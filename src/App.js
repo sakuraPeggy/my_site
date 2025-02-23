@@ -15,13 +15,13 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} /> {/* ✅ Add this line */}
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<h2>Page Not Found</h2>} />
-        </Routes>
-        <Footer />
+          </Routes>
       </Container>
     </Router>
   );

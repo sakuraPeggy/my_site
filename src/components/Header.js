@@ -31,7 +31,7 @@ const Header = () => {
           <Box sx={{ display: { xs: "none", md: "flex" }, gap: 4 }}>
             {["Home", "About", "Portfolio", "Contact"].map((text) => (
               <Link to={`/${text.toLowerCase()}`} key={text} style={{ textDecoration: "none" }}>
-                <Typography
+                <Typography 
                   sx={{
                     fontSize: "12px",
                     color: "grey.600",
