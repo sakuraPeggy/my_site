@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     
     <Grid container spacing={2} alignItems="center" justifyContent="center" mb={15} mt={15}>
-      {/* Left Side (In-Progress Video) */}
+      
       <Grid item display="flex" justifyContent="center">
         <Card sx={{ maxWidth: "600px", overflow: "hidden" }}>
           <CardMedia
@@ -28,7 +28,7 @@ const Portfolio = () => {
         </Card>
       </Grid>
 
-      {/* Right Side (Archive Video with Hover Effect and Notification) */}
+      
       <Grid item display="flex" justifyContent="center">
         <Box
           sx={{
@@ -43,14 +43,14 @@ const Portfolio = () => {
               left: 0,
               width: "100%",
               height: "250px",
-              backgroundColor: "rgba(244, 168, 161, 0.4)", // F4A8A1 hover effect
+              backgroundColor: "rgba(244, 168, 161, 0.4)", 
               transition: "background-color 0.3s ease",
             },
             "&:hover .notification": {
-              opacity: 1, // Display notification on hover
+              opacity: 1, 
             },
           }}
-          onClick={() => window.open(archiveLink, "_blank")} // Open in new tab
+          onClick={() => window.open(archiveLink, "_blank")} 
         >
           <Card sx={{ maxWidth: "100%", overflow: "hidden" }}>
             <CardMedia
@@ -68,7 +68,7 @@ const Portfolio = () => {
             />
           </Card>
 
-          {/* Notification Text */}
+          
           <Box
             className="notification"
             sx={{
