@@ -22,6 +22,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<h2>Page Not Found</h2>} />
         </Routes>
+        <Footer/>
       </Container>
     </Router>
   );
