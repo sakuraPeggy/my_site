@@ -10,7 +10,8 @@ const Footer = () => {
     left: 0,
     right: 0,
     position: "absolute",
-    passing:"2px"
+    passing:"2px",
+    
   }}
 >
       <Typography 

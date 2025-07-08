@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <Container sx={{ mt: 5, mb: 5, maxWidth: "600px" }}>
       <Box>
-        <Typography variant="h6" sx={{ fontWeight: "bold", mb: 2, textAlign: "center", mt:5 }}>
+        <Typography variant="h6" sx={{ fontWeight: "bold", mb: 2, textAlign: "center", mt:5, marginTo: 5 }}>
           Contact Me
         </Typography>
         <Typography variant="body1" sx={{ mb: 4, textAlign: "center" }}>

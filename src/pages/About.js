@@ -132,7 +132,7 @@ const About = () => {
           
         }}
       >
-        <Typography variant="h6" sx={{ mb: 2 }}>
+        <Typography variant="h6" sx={{ mb: 2, marginTop: 5}}>
           About Me
         </Typography>
         <Typography variant="body1" sx={{ lineHeight: 1.5 }}>

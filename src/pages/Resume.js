@@ -1,6 +1,7 @@
 import { Container, Box, Button, Typography, Dialog, DialogTitle, DialogContent, DialogActions } from "@mui/material";
 import DownloadIcon from "@mui/icons-material/Download";
 import { useState } from "react";
+import Footer from '../components/Footer'
 
 const Resume = () => {
   const resumeImage = process.env.PUBLIC_URL + "/RESUME.png"; 
@@ -63,6 +64,7 @@ const Resume = () => {
           <Button onClick={handleConfirmDownload} color="primary">Agree & Download</Button>
         </DialogActions>
       </Dialog>
+      <Footer />
     </Container>
   );
 };
