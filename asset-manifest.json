@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/my_site/static/js/main.6963f1af.js",
+    "static/media/yellobg.png": "/my_site/static/media/yellobg.104360662a01f8b7eeeb.png",
+    "static/media/pic.png": "/my_site/static/media/pic.3684d839c62ac0a51d31.png",
+    "index.html": "/my_site/index.html",
+    "main.6963f1af.js.map": "/my_site/static/js/main.6963f1af.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6963f1af.js"
+  ]
+}
